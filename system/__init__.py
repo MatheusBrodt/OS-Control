@@ -1,4 +1,5 @@
 from datetime import date
+import functions
 
 print('\033[33mControle de serviços Óticas Carol\033[m')
 print('-'*33)
@@ -25,11 +26,10 @@ if date.day == 1:
 temp_dict = dict()
 
 #  date entry for service
-
 while True:
-    store = int(input('Digite o número da filial: '))
-    os = int(input('Digite o número da OS: '))
-    service_type = int(input('Digite "1" para VS ou "2" para Multifocal: '))
+    store = functions.check_store('Digite o número da filial: ')
+    os = functions.inteiro('Digite o número da OS: ')
+    service_type = functions.inteiro('Digite 1 para "VS" ou 2 para "Multifocal": ')
     tem_store = service_type
     if service_type == 1:
         cont_vs = 1
