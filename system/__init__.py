@@ -38,6 +38,7 @@ while True:
         temp_dict['Sequência'] = os
         temp_dict['Tipo'] = service_type
         temp_dict['Data'] = date
+        file_txt = open('arquivo.txt', 'at')  # file open for recording
         if store == 1432:
             loja_1432.append(temp_dict.copy())
         elif store == 2064:
@@ -52,8 +53,10 @@ while True:
             loja_1574.append(temp_dict.copy())
         elif store == 1648:
             loja_1648.append(temp_dict.copy())
+        file_txt.write(f'Loja: {store} Seq: {os} Tipo: {service_type} Data: {date}\n')
         temp_dict.clear()
         vs_amount.append(cont_vs)
+        file_txt.close()  # closed file for recording
     elif service_type == 2:
         cont_multi = 1
         service_type = 'Multifocal'
@@ -61,6 +64,7 @@ while True:
         temp_dict['Sequência'] = os
         temp_dict['Tipo'] = service_type
         temp_dict['Data'] = date
+        file_txt = open('arquivo.txt', 'at')  # file open for recording
         if store == 1432:
             loja_1432.append(temp_dict.copy())
         elif store == 2064:
@@ -75,8 +79,10 @@ while True:
             loja_1574.append(temp_dict.copy())
         elif store == 1648:
             loja_1648.append(temp_dict.copy())
+        file_txt.write(f'Loja: {store} Seq: {os} Tipo: {service_type} Data: {date}\n')
         temp_dict.clear()
         multifocal_amount.append(cont_multi)
+        file_txt.close()  # closed file for recording
     else:
         print('\033[31mOpção inválida!\033[m')
     print(loja_1432)

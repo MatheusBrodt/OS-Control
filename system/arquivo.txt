@@ -1,0 +1,4 @@
+Loja: 1432 Seq: 1212 Tipo: VS Data: 2020-07-21
+Loja: 1432 Seq: 1111 Tipo: VS Data: 2020-07-21
+[31mLoja:[m 1432 Seq: 1222 Tipo: VS Data: 2020-07-21
+Loja: 1432 Seq: 1111 Tipo: VS Data: 2020-07-21
