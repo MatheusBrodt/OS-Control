@@ -1,4 +1,5 @@
-Loja: 1432 Seq: 1212 Tipo: VS Data: 2020-07-21
-Loja: 1432 Seq: 1111 Tipo: VS Data: 2020-07-21
-[31mLoja:[m 1432 Seq: 1222 Tipo: VS Data: 2020-07-21
-Loja: 1432 Seq: 1111 Tipo: VS Data: 2020-07-21
+Loja: 1571 | Seq: 1234 | Tipo: VS | Data: 2020-07-23
+Loja: 1432 | Seq: 1234 | Tipo: VS | Data: 2020-07-23
+Loja: 1648 | Seq: 2343 | Tipo: VS | Data: 2020-07-23
+Loja: 2064 | Seq: 911 | Tipo: Multifocal | Data: 2020-07-23
+Loja: 1744 | Seq: 2121 | Tipo: Multifocal | Data: 2020-07-23
