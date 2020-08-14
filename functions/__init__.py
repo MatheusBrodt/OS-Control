@@ -2,7 +2,7 @@ def inteiro(txt):
     """
     Compare if the number is an integer.
     :param txt: Data input
-    :return: If true retunr number.
+    :return: If true return number.
     """
     opc = 0
     while opc == 0:
@@ -15,7 +15,7 @@ def inteiro(txt):
                 opc = 1
                 return var_2
         except:
-            print(f'\033[33mOpção Inválida!\033[m')
+            print(f'\033[33mErro ao reconhecer um número inteiro!\033[m')
 
 
 def check_store(number):
@@ -31,7 +31,7 @@ def check_store(number):
             if var == 1432 or var == 2064 or var == 1518 or var == 1744 or var == 1571 or var == 1574 or var == 1648:
                 return int(var)
             else:
-                print(f'\033[31mEntrada inválida!\033[m')
+                print(f'\033[31mFilial Inexistente!\033[m')
         except:
-            print(f'\033[31mEntrada Inválida!\033[m')
+            print(f'\033[31mErro ao digitar a filial!\033[m')
             continue
