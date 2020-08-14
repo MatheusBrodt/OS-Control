@@ -11,3 +11,4 @@ Loja: 1432 | Seq: 97802 | Tipo: VS
 Loja: 1432 | Seq: 97802 | Tipo: VS
 Loja: 1432 | Seq: 97803 | Tipo: VS
 Loja: 1432 | Seq: 97803 | Tipo: VS
+Loja: 1432 | Seq: 2323 | Tipo: VS

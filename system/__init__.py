@@ -30,7 +30,7 @@ if option == 1:
                     os = functions.inteiro('Digite o número da OS: ')
                     correct = str(f'Loja: {store} | Seq: {os} | Tipo: {service_type}\n')
                     temporary = correct
-                    file_txt.write(correct)
+                    temporary_comparison = temporary
             file_txt.write(temporary_comparison)
             file_txt.close()  # closed file for recording
         elif service_type == 2:
