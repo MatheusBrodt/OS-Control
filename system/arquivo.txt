@@ -1,14 +1,9 @@
-Loja: 1432 | Seq: 9780 | Tipo: VS
-Loja: 2064 | Seq: 1091 | Tipo: Multifocal
-Loja: 1518 | Seq: 3482 | Tipo: Multifocal
-Loja: 1518 | Seq: 3482 | Tipo: Multifocal
-Loja: 1432 | Seq: 9780 | Tipo: VS
-Loja: 1432 | Seq: 9780 | Tipo: VS
-Loja: 1432 | Seq: 9780 | Tipo: VS
-Loja: 1432 | Seq: 9780 | Tipo: VS
-Loja: 1432 | Seq: 97801 | Tipo: VS
-Loja: 1432 | Seq: 97802 | Tipo: VS
-Loja: 1432 | Seq: 97802 | Tipo: VS
-Loja: 1432 | Seq: 97803 | Tipo: VS
-Loja: 1432 | Seq: 97803 | Tipo: VS
-Loja: 1432 | Seq: 2323 | Tipo: VS
+2020-08-17
+2020-08-17
+2020-08-17
+2020-08-17
+2020-08-17
+2020-08-17
+2020-08-17
+2020-08-17
+2020-08-17

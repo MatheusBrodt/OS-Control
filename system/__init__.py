@@ -1,11 +1,16 @@
 from datetime import date
 import functions
+import _sqlite3
+
 
 print('\033[33mControle de serviços Óticas Carol\033[m')
 print('-'*33)
 
 date = date.today()
 temporary_comparison = ''
+
+# for recording the date
+
 
 #  date entry for service
 option = functions.inteiro('(1) Para cadastrar / (2) Para pesquisar: ')
