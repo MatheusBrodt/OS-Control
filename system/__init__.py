@@ -28,11 +28,12 @@ while True:
                     re = 1
                     for line in result:
                         read = line
+                        re = 0
                         if os in read:
                             print(f'\033[33mOS já cadastrada!\033[m')
                             os = functions.integer_with_bar('Digite novamente o número da OS: ')
                             re = 1
-                        if re == 0:
+                        if re != 0:
                             try:
                                 connection = mysql.connector.connect(host='localhost', user='root', password='',
                                                                      database='controle_de_serviços')
@@ -41,8 +42,10 @@ while True:
                                                f"VALUES ('{date}', '{os}', '{lens}')")
                                 connection.commit()
                                 connection.close()
+                                re = 0
                             except:
-                                print(f'\033[31mNão foi possível acessar o banco de dados!\033[m')
+                                if re != 1:
+                                    print(f'\033[31mNão foi possível acessar o banco de dados!\033[m')
                             else:
                                 print(f'\033[33mSalvo com sucesso no banco de dados!\033[m')
                                 load = 1
