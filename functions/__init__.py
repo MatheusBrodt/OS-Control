@@ -51,7 +51,8 @@ def check_store(number):
     while opc == 0:
         try:
             var = inteiro(number)
-            if var == 1432 or var == 2064 or var == 1518 or var == 1744 or var == 1571 or var == 1574 or var == 1648:
+            if var == 1432 or var == 2064 or var == 2007 or var == 1518 or var == 1744 or var == 1571\
+                    or var == 1574 or var == 1648 or var == 0:
                 return int(var)
             else:
                 print(f'\033[31mFilial Inexistente!\033[m')
